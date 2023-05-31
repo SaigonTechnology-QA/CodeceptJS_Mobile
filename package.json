@@ -1,0 +1,24 @@
+{
+  "name": "codeceptjsproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "mobile": "env-cmd -f env/moto_watch/.env npx codeceptjs run --grep @android --config config/moto_watch/mobile/android.local.conf.js --steps --debug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^8.0.1",
+    "@testomatio/reporter": "^0.7.6",
+    "assert": "^2.0.0",
+    "chai": "^4.3.7",
+    "codeceptjs": "^3.4.1",
+    "codeceptjs-assert": "^0.0.5",
+    "codeceptjs-tesults": "^1.1.0",
+    "env-cmd": "^10.1.0",
+    "jsonpath": "^1.1.1",
+    "webdriverio": "^8.10.5"
+  }
+}

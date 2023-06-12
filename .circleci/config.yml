@@ -30,8 +30,8 @@ jobs:
           name: Install package
           command: npm install
       - run:
-          name: Test API
-          command: npm run api
+          name: Test Mobile
+          command: npm run mobile
 
 
 workflows:
